@@ -1,0 +1,59 @@
+#col1 {
+	background-color: lightgrey
+}
+#col2 {
+	background-color: lightgrey;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size:20px;
+}
+#col3 {
+	background-color: lightgrey;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size:20px;
+}
+#col4 {
+	background-color: lightgrey;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size:20px;
+}
+#col5 {
+	background-color: lightgrey
+}
+#col6 {
+	background-color: lightgrey
+}
+#colsm1 {
+	background-color: white
+}
+#colsm2 {
+	background-color: lightgrey
+}
+#colsm3 {
+	background-color: white
+}
+#footer {
+    background-color: gray;
+}
+#header {
+    background: linear-gradient(45deg,#cca9dd,#FFCCCC);
+}
+#header-title {
+    text-align: center;
+    padding: 60px;
+    font-family: 'MonteCarlo', cursive;
+    font-size:100px;   
+}
+h2 {
+    font-weight:200;
+    padding-bottom:20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
